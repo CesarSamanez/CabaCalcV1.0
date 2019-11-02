@@ -68,7 +68,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:textColor="#000000"
-                android:text="Github: https://github.com/CesarSamanez?tab=repositories" />
+                android:text="Github: github.com/CesarSamanez/CabaCalcV1.0" />
 
 
             <TextView
