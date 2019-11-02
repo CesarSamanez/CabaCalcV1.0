@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">CabaCalc</string>
+
+    <string name="textoNombre">NOMBRES Y APELLIDOS</string>
+    <string name="textofecha">FECHA DE NACIMIENTO</string>
+
+    <string name="dia">Día</string>
+    <string name="mes">Mes</string>
+    <string name="año">Año</string>
+
+
+    <string name="continuar">CONTINUAR</string>
+
+
+    <string name="estudio">ESTUDIO</string>
+    <string name="urgenciaInterior">URGENCIA INTERIOR</string>
+    <string name="tonicaFundamental">TÓNICA FUNDAMENTAL</string>
+    <string name="tonicaDelDia">LA TÓNICA DEL DÍA</string>
+    <string name="acontecimientoDelDia">ACONTECIMIENTO DEL DÍA</string>
+    <string name="significadoDeNumeros">SIGNIFICADO DE LOS NÚMEROS</string>
+    <string name="cabala">CÁBALA DEL AÑO</string>
+    <string name="desarrollador">DESARROLLADOR</string>
+    <string name="estudioNumerologico">ESTUDIO NUMEROLÓGICO</string>
+
+    <string name="msjEstudio">Estudio numerológico</string>
+    <string name="msjUrgenciaInterior">Urgencia interior</string>
+    <string name="msjTonicaFundamental">Tónica fundamental</string>
+    <string name="msjTonicaDia">Tónica del día</string>
+    <string name="msjAcontecimientoDia">Acontecimiento del día</string>
+    <string name="msjSignificadoNumeros">Significado de los números</string>
+    <string name="msjCabala">Cábala del año</string>
+    <string name="msjDesarrolador">Derechos de autor</string>
+
+    <string name="error">Complete todos los campos</string>
+    <string name="errorDias">Ingrese un valor para días correcto</string>
+    <string name="errorMes">Ingrese un valor de mes correcto</string>
+    <string name="errorAño">Ingrese un valor de año correcto</string>
+
+    <string name="correo">Correo Electronico: csamanezj@unsa.edu.pe</string>
+    <string name="universidad">Universidad Nacional de San Agustín</string>
+    <string name="escuelaProfesional">Escuela Profesional de Ingenieria de Sistemas</string>
+    <string name="derechosReservados">©2019 Todos lo derechos reservados.</string>
+
+    <string name="HoraAcontecimiento">Hora de acontecimiento</string>
+    <string name="Calcular">Calcular</string>
+    <string name="errorHoras">Ingrese un valor entre 1 y 12</string>
+    <string name="FechaAInvestigar">Fecha a investigar</string>
+    <string name="title_activity_menu">menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CabaCalc</string>
+    <string name="acontecimientoDelDia">EVENT OF THE DAY</string>
+    <string name="año">Year</string>
+    <string name="cabala">KABBALAH OF THE YEAR</string>
+    <string name="continuar">CONTINUE</string>
+    <string name="desarrollador">DEVELOPER</string>
+    <string name="dia">Day</string>
+    <string name="error">Complete all fields</string>
+    <string name="estudio">STUDY</string>
+    <string name="mes">Month</string>
+    <string name="msjAcontecimientoDia">Event of the day</string>
+    <string name="msjCabala">Kabbalah of the year</string>
+    <string name="msjDesarrolador">Copyright</string>
+    <string name="msjEstudio">Numerological study</string>
+    <string name="msjSignificadoNumeros">Meaning of the numbers</string>
+    <string name="msjTonicaDia">Tonic of the day</string>
+    <string name="msjTonicaFundamental">Fundamental tonic</string>
+    <string name="msjUrgenciaInterior">Inner urgency</string>
+    <string name="significadoDeNumeros">MEANING OF THE NUMBERS</string>
+    <string name="textoNombre">"NAMES AND SURNAMES   "</string>
+    <string name="textofecha">"DATE OF BIRTH   "</string>
+    <string name="tonicaDelDia">THE TONIC OF THE DAY</string>
+    <string name="tonicaFundamental">FUNDAMENTAL TONIC</string>
+    <string name="urgenciaInterior">INTERNAL URGENCY</string>
+    <string name="derechosReservados">© 2019 All rights reserved.</string>
+    <string name="escuelaProfesional">Professional School of Systems Engineering</string>
+    <string name="universidad">National University of San Agustín</string>
+    <string name="correo">Email: csamanezj@unsa.edu.pe</string>
+    <string name="errorAño">Enter a correct year value</string>
+    <string name="errorDias">Enter a correct day value</string>
+    <string name="errorMes">Enter a correct month value</string>
+    <string name="Calcular">Calculate</string>
+    <string name="FechaAInvestigar">Date to investigate</string>
+    <string name="HoraAcontecimiento">Event time</string>
+    <string name="errorHoras">Enter a value between 1 and 12</string>
+    <string name="estudioNumerologico">NUMEROLOGICAL STUDY</string>
+</resources>

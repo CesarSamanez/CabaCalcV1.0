@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CabaCalc</string>
+    <string name="acontecimientoDelDia">EVENTO DO DIA</string>
+    <string name="año">Ano</string>
+    <string name="cabala">CABALA DO ANO</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="desarrollador">DESENVOLVEDOR</string>
+    <string name="dia">Dia</string>
+    <string name="error">Preencha todos os campos</string>
+    <string name="estudio">ESTUDO</string>
+    <string name="msjAcontecimientoDia">Evento do dia</string>
+    <string name="msjCabala">Cabala do ano</string>
+    <string name="mes">Mês</string>
+    <string name="msjDesarrolador">Direitos autorais</string>
+    <string name="msjEstudio">Estudo numerológico</string>
+    <string name="msjSignificadoNumeros">Significado dos números</string>
+    <string name="msjTonicaDia">Tônico do dia</string>
+    <string name="msjTonicaFundamental">Tônico fundamental</string>
+    <string name="msjUrgenciaInterior">Urgência interna</string>
+    <string name="significadoDeNumeros">SIGNIFICADO DOS NÚMEROS</string>
+    <string name="textoNombre">NOMBRES Y APELLIDOS</string>
+    <string name="textofecha">DATA DE NASCIMENTO</string>
+    <string name="tonicaFundamental">TÔNICA FUNDAMENTAL</string>
+    <string name="tonicaDelDia">A TÔNICA DO DIA</string>
+    <string name="urgenciaInterior">URGÊNCIA INTERNA</string>
+    <string name="escuelaProfesional">Escola Profissional de Engenharia de Sistemas</string>
+    <string name="derechosReservados">© 2019 Todos os direitos reservados.</string>
+    <string name="universidad">Universidade Nacional de San Agustín</string>
+    <string name="correo">E-mail: csamanezj@unsa.edu.pe</string>
+    <string name="errorAño">Digite um valor correto para o ano</string>
+    <string name="errorDias">Digite um valor de dia correto</string>
+    <string name="errorMes">Digite um valor correto para o mês</string>
+    <string name="Calcular">Calcular</string>
+    <string name="FechaAInvestigar">Data a investigar</string>
+    <string name="HoraAcontecimiento">Hora do evento</string>
+    <string name="errorHoras">Digite um valor entre 1 e 12</string>
+    <string name="estudioNumerologico">ESTUDO NUMEROLÓGICO</string>
+</resources>
