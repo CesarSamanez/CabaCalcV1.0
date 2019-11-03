@@ -4,11 +4,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class EstudioNumerologico extends AppCompatActivity {
 
-
+    Button verArcanos, verArcanos1;
     TextView txtNombre1, txtfecha1, txtUrgenciaInterior1, txtTonicaFundamental1, txtCabalaAño1, txtTonicaDelDia1;
 
     static String nombre, dia, mes, año;
@@ -18,7 +20,7 @@ public class EstudioNumerologico extends AppCompatActivity {
     static String[] meses = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto"
             , "Setiembre", "Octubre", "Noviembre", "Diciembre"};
     static String Tonicadeldia = "";
-    static String fechaAux ="";
+    static String fechaAux = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,17 +35,34 @@ public class EstudioNumerologico extends AppCompatActivity {
         mes = intent.getStringExtra(Index.data3);
         año = intent.getStringExtra(Index.data4);
 
-        fechaAux= ""+dia + " de " + meses[Integer.parseInt(mes) - 1] + " del " + año;
+        fechaAux = "" + dia + " de " + meses[Integer.parseInt(mes) - 1] + " del " + año;
 
         txtNombre1 = (TextView) findViewById(R.id.nombre);
-       txtfecha1 = (TextView) findViewById(R.id.fecha);
+        txtfecha1 = (TextView) findViewById(R.id.fecha);
         txtUrgenciaInterior1 = (TextView) findViewById(R.id.urgenciainterior);
         txtTonicaFundamental1 = (TextView) findViewById(R.id.tonicafundamental);
         txtTonicaDelDia1 = (TextView) findViewById(R.id.tonicadeldia);
         txtCabalaAño1 = (TextView) findViewById(R.id.cabaladelaño);
+        verArcanos = (Button) findViewById(R.id.btnVerArcanos);
+        verArcanos1 = (Button) findViewById(R.id.btnVerArcanos1);
+
+        verArcanos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mostrar(v);
+            }
+        });
 
 
-      //  Urgenciainterior = "";
+        verArcanos1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mostrar(v);
+            }
+        });
+
+        //  Urgenciainterior = "";
+
         TonicaFundamental(nombre);
         txtUrgenciaInterior1.setText(Urgenciainterior);
 
@@ -61,6 +80,10 @@ public class EstudioNumerologico extends AppCompatActivity {
 
     }
 
+    public void mostrar(View view) {
+        Intent intent = new Intent(this, SignificadoDeLosNumeros.class);
+        startActivity(intent);
+    }
 
     public static int UrgenciaInterior(String dia, String mes, String año) {
         int sumaDias = suma(dia);

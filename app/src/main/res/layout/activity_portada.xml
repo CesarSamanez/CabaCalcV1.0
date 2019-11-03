@@ -18,34 +18,43 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="CabaCalc v1.0"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                />
             <LinearLayout
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/git">
 
             </LinearLayout>
-            <!--
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="50dp"
-                    android:text="NOMBRES Y APELLIDOS"
-                    android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"/>
-            -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="gravity"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#8BC34A"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:text="@string/info"
+                />
 
             <EditText
                 android:id="@+id/txtName"
                 android:layout_width="350dp"
                 android:layout_height="40dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="30dp"
                 android:hint="@string/textoNombre"
                 android:maxLength="40"
                 android:textAlignment="center"

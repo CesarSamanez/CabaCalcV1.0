@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class CabalaDelAnio extends AppCompatActivity {
-
+    Button verArcanos;
     TextView name, contenido, fecha;
     static String nombre, año;
     static String cabalaDelAño = "";
@@ -31,6 +33,20 @@ public class CabalaDelAnio extends AppCompatActivity {
         fecha.setText("Fecha de nacimiento " + año);
         CabalaDelAño();
         contenido.setText(cabalaDelAño);
+
+        verArcanos = (Button) findViewById(R.id.btnVerArcanos);
+
+        verArcanos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mostrar(v);
+            }
+        });
+    }
+
+    public void mostrar(View view) {
+        Intent intent = new Intent(this, SignificadoDeLosNumeros.class);
+        startActivity(intent);
     }
 
     public static void CabalaDelAño() {

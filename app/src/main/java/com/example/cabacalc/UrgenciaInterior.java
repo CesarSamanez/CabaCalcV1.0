@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class UrgenciaInterior extends AppCompatActivity {
-
+    Button verArcanos;
     TextView name, contenido;
     static String Urgenciainterior = "";
 
@@ -29,6 +31,20 @@ public class UrgenciaInterior extends AppCompatActivity {
 
         contenido.setText(Urgenciainterior);
 
+        verArcanos = (Button) findViewById(R.id.btnVerArcanos);
+
+        verArcanos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mostrar(v);
+            }
+        });
+
+    }
+
+    public void mostrar(View view) {
+        Intent intent = new Intent(this, SignificadoDeLosNumeros.class);
+        startActivity(intent);
     }
 
     public static void UrgenciaInterior(String dia, String mes, String año) {

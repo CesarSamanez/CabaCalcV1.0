@@ -38,10 +38,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:textStyle="bold"
                 android:layout_marginTop="20dp"
                 android:textColor="#000000"
-                android:textSize="23dp" />
+                android:textSize="23dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/fecha"
@@ -59,8 +59,7 @@
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="30dp"
                 android:background="#E4E5E4"
-                android:orientation="vertical"
-                >
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -83,6 +82,18 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
                     android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnVerArcanos1"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:text="@string/verArcanos"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -147,6 +158,18 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
                     android:textColor="#000000" />
+
+                <Button
+                    android:id="@+id/btnVerArcanos"
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/background"
+                    android:text="@string/verArcanos"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout

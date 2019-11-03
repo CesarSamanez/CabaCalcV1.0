@@ -36,4 +36,10 @@
     <string name="HoraAcontecimiento">Event time</string>
     <string name="errorHoras">Enter a value between 1 and 12</string>
     <string name="estudioNumerologico">NUMEROLOGICAL STUDY</string>
+    <string name="info">Fill in the following information to obtain your inner urgency (a type of numerical zodiac sign), your fundamental tonic (what you have to do to succeed in life) and other important data.</string>
+    <string name="despedida">Closing session</string>
+    <string name="verArcanos">See arcana</string>
+    <string name="salir">Get out</string>
+    <string name="publicado">Published: November 2, 2019</string>
+    <string name="facultad">Faculty of Production and Services Engineering</string>
 </resources>

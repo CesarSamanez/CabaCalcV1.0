@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class Index extends AppCompatActivity {
-    Button btn_developer, btn_estudio, btn_UrgenciaInterior, btn_TonicaFundamental, btn_TonicaDiaria, btn_Acontecimiento, btn_Significado, btn_Cabala;
+    Button btn_developer, btn_estudio, btn_UrgenciaInterior, btn_TonicaFundamental, btn_TonicaDiaria, btn_Acontecimiento, btn_Significado, btn_Cabala, btn_exit;
     public static final String data1 = "nombre";
     public static final String data2 = "dia";
     public static final String data3 = "mes";
@@ -31,6 +31,7 @@ public class Index extends AppCompatActivity {
         btn_Significado = (Button) findViewById(R.id.buttonSignificadoNumeros);
         btn_Cabala = (Button) findViewById(R.id.buttonCabala);
         btn_developer = (Button) findViewById(R.id.buttonDeveloper);
+        btn_exit = (Button) findViewById(R.id.btnReturn);
 
         Intent intent = getIntent();
         name = intent.getStringExtra(Portada.data1);
@@ -38,6 +39,13 @@ public class Index extends AppCompatActivity {
         month = intent.getStringExtra(Portada.data3);
         year = intent.getStringExtra(Portada.data4);
 
+        btn_exit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Index.this,  R.string.despedida, Toast.LENGTH_SHORT ).show();
+                salir(v);
+            }
+        });
 
         btn_estudio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -119,6 +127,11 @@ public class Index extends AppCompatActivity {
 
         });
 
+    }
+
+    public void salir(View view){
+        Intent intent = new Intent(this,MainActivity.class);
+        startActivity(intent);
     }
 
     public void EstudioNumerologico(View view) {

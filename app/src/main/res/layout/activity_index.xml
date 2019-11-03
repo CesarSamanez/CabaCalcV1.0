@@ -5,10 +5,9 @@
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background2"
     android:orientation="vertical"
-    tools:context=".Index"
-    android:background="@drawable/background2">
-
+    tools:context=".Index">
 
 
     <ScrollView
@@ -28,12 +27,31 @@
                 android:layout_height="fill_parent"
                 android:background="@drawable/background">
 
+                <Button
+                    android:id="@+id/btnReturn"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/delete"
+                    android:gravity="right" />
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
                     android:background="@drawable/back"
                     android:gravity="center"
                     android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:text="@string/salir"
+                        android:textColor="#FFEB3B"
+                        android:textStyle="bold" />
 
                     <ImageView
                         android:layout_width="90dp"
@@ -44,12 +62,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
                         android:text="CabaCalc v1.0"
                         android:textColor="#ffffff"
                         android:textSize="18sp"
                         android:textStyle="bold" />
-
 
                 </LinearLayout>
 
@@ -73,16 +89,14 @@
                             android:layout_height="match_parent"
                             android:layout_marginRight="5dp"
                             android:layout_weight="1"
+                            android:background="#EEF5F5"
                             android:gravity="center"
                             android:orientation="vertical"
-                            app:cardCornerRadius="10dp"
-                            android:background="#EEF5F5">
+                            app:cardCornerRadius="10dp">
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView1"
@@ -124,8 +138,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView2"
@@ -176,8 +189,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView3"
@@ -219,8 +231,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView4"
@@ -271,8 +282,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView5"
@@ -292,6 +302,7 @@
                                     android:textColor="#000000"
                                     android:textSize="18sp"
                                     android:textStyle="bold" />
+
                                 <Button
                                     android:id="@+id/buttonAcontecimientoDia"
                                     android:layout_width="match_parent"
@@ -321,8 +332,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView6"
@@ -373,8 +383,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView7"
@@ -415,8 +424,7 @@
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                >
+                                android:layout_height="match_parent">
 
                                 <ImageView
                                     android:id="@+id/imageView8"

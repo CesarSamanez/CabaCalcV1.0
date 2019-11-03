@@ -45,20 +45,13 @@
     <string name="Calcular">Calcular</string>
     <string name="errorHoras">Ingrese un valor entre 1 y 12</string>
     <string name="FechaAInvestigar">Fecha a investigar</string>
-    <string name="title_activity_menu">menu</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="info">Llena los siguientes datos para obtener tu urgencia interior (un tipo de signo zodiacal numérico), tu tónica fundamental (lo que tienes que hacer para tener éxito en la vida) y otros datos más de importancia.</string>
+    <string name="despedida">Cerrando Sesión</string>
+    <string name="salir">Salir</string>
+    <string name="verArcanos">Ver arcanos</string>
 
+    <string name="publicado">Publicado: 2 de Noviembre del 2019</string>
+    <string name="facultad">Facultad de Ingeniería de Producción y Servicios</string>
 
 </resources>

@@ -36,4 +36,10 @@
     <string name="HoraAcontecimiento">Hora de acontecimiento</string>
     <string name="errorHoras">Ingrese un valor entre 1 y 12</string>
     <string name="estudioNumerologico">ESTUDIO NUMEROLÓGICO</string>
+    <string name="info">Llena los siguientes datos para obtener tu urgencia interior (un tipo de signo zodiacal numérico), tu tónica fundamental (lo que tienes que hacer para tener éxito en la vida) y otros datos más de importancia.</string>
+    <string name="despedida">Cerrando Sesión</string>
+    <string name="verArcanos">Ver arcanos</string>
+    <string name="salir">Salir</string>
+    <string name="publicado">Publicado: 2 de Noviembre del 2019</string>
+    <string name="facultad">Facultad de Ingeniería de Producción y Servicios</string>
 </resources>
